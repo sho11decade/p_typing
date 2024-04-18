@@ -1,0 +1,30 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+h1 {
+    color: #364e96;/*文字色*/
+    border: solid 3px #364e96;/*線色*/
+    padding: 0.5em;/*文字周りの余白*/
+    border-radius: 0.5em;/*角丸*/
+  }
+  a.start {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	border: 2px solid #27acd9;
+	color: #27acd9;
+	border-radius: 100vh;
+	transition: 0.5s;
+}
+a.start:hover {
+	color: #fff;
+	background: #27acd9;
+}
